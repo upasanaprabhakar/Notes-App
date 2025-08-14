@@ -1,0 +1,120 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fef6e4; 
+    padding: 2rem;
+    margin-right: 200px;
+}
+
+.auth-form {
+    background-color: var(--navbar-peach);
+    padding: 2.5rem 3rem;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.auth-form h1 {
+    color: var(--text-on-peach);
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.auth-input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.auth-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-on-peach);
+    font-weight: 500;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: var(--primary-bg);
+    color: var(--text-dark);
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-input:focus {
+    border-color: var(--darker-hover-peach);
+    box-shadow: 0 0 0 3px rgba(228, 180, 159, 0.3);
+}
+
+.auth-button {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: var(--darker-hover-peach);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.auth-button:hover {
+    background-color: #d1a592;
+    transform: translateY(-2px);
+}
+
+.auth-switch-link {
+    margin-top: 1.5rem;
+    color: var(--text-on-peach);
+}
+
+.auth-switch-link a {
+    color: var(--text-dark);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.auth-switch-link a:hover {
+    text-decoration: underline;
+}
+
+.password-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-input {
+    padding-right: 3rem;
+}
+
+.password-toggle-button {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: var(--text-light);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-toggle-button:hover {
+    color: var(--text-dark);
+}

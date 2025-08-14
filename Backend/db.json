@@ -1,0 +1,29 @@
+[
+  {
+    "id": "bd9fff4d-a326-4a77-9f55-e0b840424b58",
+    "title": "Test Note from Postman",
+    "content": "This is the content for the new note.\nIt can even have multiple lines.",
+    "category": "work",
+    "isFavorite": false,
+    "isTrashed": true,
+    "createdAt": 1754579584021
+  },
+  {
+    "id": "67d98b2d-8d70-4dfc-a666-aa0a7eae1ac7",
+    "title": "Test Note from Postman",
+    "content": "This is the content for the new note.\nIt can even have multiple lines.",
+    "category": "work",
+    "isFavorite": false,
+    "isTrashed": true,
+    "createdAt": 1754579637316
+  },
+  {
+    "id": "a1a8b1a0-1172-45ef-b643-8279e51b2e1d",
+    "title": "Test Note from Postman",
+    "content": "This is the content for the new note.\nIt can even have multiple lines.",
+    "category": "work",
+    "isFavorite": false,
+    "isTrashed": false,
+    "createdAt": 1754579650701
+  }
+]

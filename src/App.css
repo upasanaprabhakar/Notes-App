@@ -1,0 +1,27 @@
+:root {
+  --cream: #fef6e4;
+  --peach: #f3d2c1;
+  --pink: #fcd5ce;
+  --mint: #d8e2dc;
+  --lavender: #cdb4db;
+  --text-dark: #333;
+  --text-light: #555;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--cream);
+  color: var(--text-dark);
+}
+
+.App {
+  margin-left: 250px;
+}
+
+
+
+
